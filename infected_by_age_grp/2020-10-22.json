@@ -1,0 +1,89 @@
+{
+    "objectIdFieldName": "ObjectId",
+    "uniqueIdField": {
+        "name": "ObjectId",
+        "isSystemMaintained": true
+    },
+    "globalIdFieldName": "",
+    "fields": [
+        {
+            "name": "value",
+            "type": "esriFieldTypeDouble",
+            "alias": "value",
+            "sqlType": "sqlTypeFloat",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "SampleAgeGrp",
+            "type": "esriFieldTypeString",
+            "alias": "SampleAgeGrp",
+            "sqlType": "sqlTypeNVarchar",
+            "length": 4000,
+            "domain": null,
+            "defaultValue": null
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "value": 1671,
+                "SampleAgeGrp": "0-9"
+            }
+        },
+        {
+            "attributes": {
+                "value": 4877,
+                "SampleAgeGrp": "10-19"
+            }
+        },
+        {
+            "attributes": {
+                "value": 7339,
+                "SampleAgeGrp": "20-29"
+            }
+        },
+        {
+            "attributes": {
+                "value": 5282,
+                "SampleAgeGrp": "30-39"
+            }
+        },
+        {
+            "attributes": {
+                "value": 5851,
+                "SampleAgeGrp": "40-49"
+            }
+        },
+        {
+            "attributes": {
+                "value": 5823,
+                "SampleAgeGrp": "50-59"
+            }
+        },
+        {
+            "attributes": {
+                "value": 3210,
+                "SampleAgeGrp": "60-69"
+            }
+        },
+        {
+            "attributes": {
+                "value": 2135,
+                "SampleAgeGrp": "70-79"
+            }
+        },
+        {
+            "attributes": {
+                "value": 1217,
+                "SampleAgeGrp": "80-89"
+            }
+        },
+        {
+            "attributes": {
+                "value": 358,
+                "SampleAgeGrp": "90+"
+            }
+        }
+    ]
+}
