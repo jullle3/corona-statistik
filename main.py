@@ -69,7 +69,7 @@ def calc_newly_infected_by_age_grp(days_to_look_back=1):
         total_new_infections += new_infections
 
     print(len(strings))
-    print(f'{total_new_infections=}')
+    print(f'total_new_infections={total_new_infections}')
     # Print. Printer her fordi vi skal bruge "total_new_infections" til at angive %
     print(f'{"Aldersgruppe":<15} {"Nye smittede":<15} {"Smittede pr 100.000":<21} {"Antal i befolkingsgruppe":<27} {"Antal smittede i %":<55}')
     for s in strings:
@@ -99,12 +99,11 @@ def infected_per_100_000_total():
 
 
 infected_per_100_000_total()
-exit()
+calc_newly_infected_by_age_grp(17)
+
+"""
 infected = 258
 population = 613000
-
 calculation = 258/613_000 * 100_000
 calculation = 258/100_000 * 100_000
-calc_newly_infected_by_age_grp(10)
-
-
+"""
